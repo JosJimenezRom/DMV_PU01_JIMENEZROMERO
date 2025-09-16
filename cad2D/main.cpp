@@ -1,5 +1,6 @@
 #include <GL/glut.h>
 #include "utilidades/menu.hpp"
+#include "eventos/eventos.hpp"
 
 int ancho_ventana = 800;
 int alto_ventana  = 600;
@@ -39,6 +40,7 @@ int main(int argc, char** argv) {
     glutReshapeFunc(redimensionar);
 
     menu::crearMenu();
+    eventos::registrarCallbacks();
 
     glutMainLoop();
     return 0;

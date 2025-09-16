@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1758007050 source:c:\users\hp\downloads\cad2d\cad2d\main.cpp
+1758007595 source:c:\users\hp\downloads\cad2d\cad2d\main.cpp
 	<GL/glut.h>
 	"utilidades/menu.hpp"
+	"eventos/eventos.hpp"
 
 1426367728 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glut.h
 	"freeglut_std.h"
@@ -878,4 +879,11 @@
 	"menu.hpp"
 
 1758006095 c:\users\hp\downloads\cad2d\cad2d\utilidades\menu.hpp
+
+1758007499 c:\users\hp\downloads\cad2d\cad2d\eventos\eventos.hpp
+
+1758007566 source:c:\users\hp\downloads\cad2d\cad2d\eventos\eventos.cpp
+	<GL/glut.h>
+	<iostream>
+	"eventos.hpp"
 
