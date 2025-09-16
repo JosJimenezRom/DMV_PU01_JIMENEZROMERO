@@ -1,8 +1,8 @@
 #include <GL/glut.h>
+#include "utilidades/menu.hpp"
 
 int ancho_ventana = 800;
 int alto_ventana  = 600;
-
 
 void configurarVentana() {
     glClearColor(1.0, 1.0, 1.0, 1.0); //Fondo de color blanco
@@ -37,6 +37,8 @@ int main(int argc, char** argv) {
 
     glutDisplayFunc(dibujar);
     glutReshapeFunc(redimensionar);
+
+    menu::crearMenu();
 
     glutMainLoop();
     return 0;
