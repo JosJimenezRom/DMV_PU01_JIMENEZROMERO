@@ -16,6 +16,7 @@ void configurarVentana() {
 
 void dibujar() {
     glClear(GL_COLOR_BUFFER_BIT);
+    eventos::dibujarFiguraTemporal();
     glutSwapBuffers();
 }
 
@@ -41,6 +42,7 @@ int main(int argc, char** argv) {
 
     menu::crearMenu();
     eventos::registrarCallbacks();
+
 
     glutMainLoop();
     return 0;

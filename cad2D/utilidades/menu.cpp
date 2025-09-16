@@ -1,7 +1,6 @@
 #include <GL/glut.h>
 #include "menu.hpp"
 
-enum class Figura { RectaDirecta, RectaDDA, CirculoPMedio, ElipsePMedio };
 Figura figura_actual = Figura::RectaDirecta;
 int color_actual = 1;
 int grosor_actual = 1;

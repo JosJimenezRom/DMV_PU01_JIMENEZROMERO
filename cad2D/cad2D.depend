@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1758007595 source:c:\users\hp\downloads\cad2d\cad2d\main.cpp
+1758010257 source:c:\users\hp\downloads\cad2d\cad2d\main.cpp
 	<GL/glut.h>
 	"utilidades/menu.hpp"
 	"eventos/eventos.hpp"
@@ -874,16 +874,24 @@
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glu.h
 	<GL/gl.h>
 
-1758006635 source:c:\users\hp\downloads\cad2d\cad2d\utilidades\menu.cpp
+1758008563 source:c:\users\hp\downloads\cad2d\cad2d\utilidades\menu.cpp
 	<GL/glut.h>
 	"menu.hpp"
 
-1758006095 c:\users\hp\downloads\cad2d\cad2d\utilidades\menu.hpp
+1758008371 c:\users\hp\downloads\cad2d\cad2d\utilidades\menu.hpp
 
-1758007499 c:\users\hp\downloads\cad2d\cad2d\eventos\eventos.hpp
+1758010368 c:\users\hp\downloads\cad2d\cad2d\eventos\eventos.hpp
 
-1758007566 source:c:\users\hp\downloads\cad2d\cad2d\eventos\eventos.cpp
+1758009334 source:c:\users\hp\downloads\cad2d\cad2d\eventos\eventos.cpp
 	<GL/glut.h>
 	<iostream>
 	"eventos.hpp"
+	"../figuras/figuras.hpp"
+	"../utilidades/menu.hpp"
+
+1758007821 c:\users\hp\downloads\cad2d\cad2d\figuras\figuras.hpp
+
+1758009163 source:c:\users\hp\downloads\cad2d\cad2d\figuras\figuras.cpp
+	<GL/glut.h>
+	"figuras.hpp"
 
